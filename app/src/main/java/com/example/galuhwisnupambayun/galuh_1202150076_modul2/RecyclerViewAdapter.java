@@ -55,7 +55,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Nasi,Kecap,Telur,Ayam Goreng,Udang,Cumi";
+                            ingredient = "Nasi, Kikil, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -63,7 +63,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Ayam,Kecap,Bumbu Kacang,Margarin";
+                            ingredient = "Ayam,Telor, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -72,7 +72,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Daging,Telur,Tepung Tapioka, Bawang Merah,Garam";
+                            ingredient = "Nasi, Kikil Super, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -80,7 +80,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Mie,Kecap,Telur,Jamur,Bakso,Sayur,Margarin";
+                            ingredient = "Nasi, Tongkol, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -88,7 +88,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Bihun,Daging Ayam,Telur,Kol,Bumbu Soto";
+                            ingredient = "Nasi, Ayam, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -96,7 +96,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Ayam,Kecap,Margarin";
+                            ingredient = "Nasi, Ayam Saos, Telor Asin";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -104,7 +104,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Kangkung,Kecap Asin ,Bawang Merah,Margarin";
+                            ingredient = "Nasi, Jengkol, Sambal";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -112,7 +112,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Ikan Lele,Kecap,Sambal,Margarin";
+                            ingredient = "Nasi, Wagyu, Cabai Hijau";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -120,7 +120,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Nasi,Kol,Mentimun,Bumbu Kacang,Telur";
+                            ingredient = "Nasi,Wagyu, Mentega";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
@@ -129,7 +129,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                             intent.putExtra("judul",rvData.get(getAdapterPosition()));
                             intent.putExtra("harga",rvHarga.get(getAdapterPosition()));
                             intent.putExtra("gambar",gambar.get(getAdapterPosition()));
-                            ingredient = "Ikan Lele,Tomat,Cabai,Margarin,Bumbu Asam Manis";
+                            ingredient = "Nasi, Wagyu, Mushroom";
                             intent.putExtra("komposisi",ingredient);
                             context.startActivity(intent);
                             break;
